@@ -29,19 +29,19 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_21_R3.CraftEquipmentSlot;
-import org.bukkit.craftbukkit.v1_21_R3.CraftServer;
-import org.bukkit.craftbukkit.v1_21_R3.CraftWorld;
-import org.bukkit.craftbukkit.v1_21_R3.block.CraftBlock;
-import org.bukkit.craftbukkit.v1_21_R3.block.CraftBlockType;
-import org.bukkit.craftbukkit.v1_21_R3.enchantments.CraftEnchantment;
-import org.bukkit.craftbukkit.v1_21_R3.entity.CraftFishHook;
-import org.bukkit.craftbukkit.v1_21_R3.entity.CraftLivingEntity;
-import org.bukkit.craftbukkit.v1_21_R3.entity.CraftPlayer;
-import org.bukkit.craftbukkit.v1_21_R3.event.CraftEventFactory;
-import org.bukkit.craftbukkit.v1_21_R3.inventory.CraftItemStack;
-import org.bukkit.craftbukkit.v1_21_R3.util.CraftChatMessage;
-import org.bukkit.craftbukkit.v1_21_R3.util.CraftNamespacedKey;
+import org.bukkit.craftbukkit.v1_21_R4.CraftEquipmentSlot;
+import org.bukkit.craftbukkit.v1_21_R4.CraftServer;
+import org.bukkit.craftbukkit.v1_21_R4.CraftWorld;
+import org.bukkit.craftbukkit.v1_21_R4.block.CraftBlock;
+import org.bukkit.craftbukkit.v1_21_R4.block.CraftBlockType;
+import org.bukkit.craftbukkit.v1_21_R4.enchantments.CraftEnchantment;
+import org.bukkit.craftbukkit.v1_21_R4.entity.CraftFishHook;
+import org.bukkit.craftbukkit.v1_21_R4.entity.CraftLivingEntity;
+import org.bukkit.craftbukkit.v1_21_R4.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_21_R4.event.CraftEventFactory;
+import org.bukkit.craftbukkit.v1_21_R4.inventory.CraftItemStack;
+import org.bukkit.craftbukkit.v1_21_R4.util.CraftChatMessage;
+import org.bukkit.craftbukkit.v1_21_R4.util.CraftNamespacedKey;
 import org.bukkit.entity.FishHook;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -59,7 +59,7 @@ import java.lang.reflect.Method;
 import java.util.*;
 import java.util.function.BiConsumer;
 
-public class Internal_1_21_4 implements EnchantNMS {
+public class Internal_1_21_5 implements EnchantNMS {
 
     private static final MinecraftServer             SERVER;
     private static final MappedRegistry<Enchantment> ENCHANTS;
@@ -78,7 +78,7 @@ public class Internal_1_21_4 implements EnchantNMS {
 
     private final NightPlugin plugin;
 
-    public Internal_1_21_4(@NotNull NightPlugin plugin) {
+    public Internal_1_21_5(@NotNull NightPlugin plugin) {
         this.plugin = plugin;
     }
 
